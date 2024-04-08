@@ -1,2 +1,0 @@
-Today we have created some new tables names Books inserted data  into it and related the table books with 
-the table Authors
