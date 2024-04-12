@@ -1,13 +1,13 @@
 using System.Runtime.InteropServices;
 
-// class Student
-// {
-//     public string name;
-//     public string address;
-//     public int roll;
+class Student
+{
+    public string name;
+    public string address;
+    public int roll;
 
-//     public DateTime  dateOfBirth;
-// }
+    public DateTime  dateOfBirth;
+}
 //create class Animal
 //define at least five internal fields( name, type, weight, legs)
 //define a method to print all details of animals in proper format.
