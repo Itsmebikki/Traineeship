@@ -48,4 +48,8 @@
 //Day10 example
 Rectangle r=new(3.5,2.3);
 var P=r.GetPerimeter();
-r.GetArea();
+var  A=r.GetArea();
+
+Square sq1=new(7);
+P=sq1.GetPerimeter();
+A=sq1.GetArea();
