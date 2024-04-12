@@ -22,24 +22,30 @@
 
 //Creating object for Animal class
 
-using System.Runtime.InteropServices.Marshalling;
+// using System.Runtime.InteropServices.Marshalling;
 
-Animal a1 = new();
-Animal a2 = new();
-Animal a3 = new();
+// Animal a1 = new();
+// Animal a2 = new();
+// Animal a3 = new();
 
-a1.name = "Dog";
-a1.type = "Land animal";
-a1.legs = 4;
-a1.weight = 15;
-a1.color = "Black";
+// a1.name = "Dog";
+// a1.type = "Land animal";
+// a1.legs = 4;
+// a1.weight = 15;
+// a1.color = "Black";
 
-a2.name = "Lizard";
-a2.type = "Reptile";
-a2.legs = 4;
-a2.weight = 10;
-a2.color = "Grey";
+// a2.name = "Lizard";
+// a2.type = "Reptile";
+// a2.legs = 4;
+// a2.weight = 10;
+// a2.color = "Grey";
 
-Console.WriteLine($"Name:{a1.name} \nType:{a1.type}\nLegs:{a1.legs}\nWeight:{a1.weight}\nColor: {a1.color}");
-Console.WriteLine("\n");
-Console.WriteLine($"Name:{a2.name} \nType:{a2.type}\nLegs:{a2.legs}\nWeight:{a2.weight}\nColor: {a2.color}");
+// Console.WriteLine($"Name:{a1.name} \nType:{a1.type}\nLegs:{a1.legs}\nWeight:{a1.weight}\nColor: {a1.color}");
+// Console.WriteLine("\n");
+// Console.WriteLine($"Name:{a2.name} \nType:{a2.type}\nLegs:{a2.legs}\nWeight:{a2.weight}\nColor: {a2.color}");
+
+
+//Day10 example
+Rectangle r=new(3.5,2.3);
+var P=r.GetPerimeter();
+r.GetArea();
