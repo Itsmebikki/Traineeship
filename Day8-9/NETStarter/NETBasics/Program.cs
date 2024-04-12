@@ -53,3 +53,7 @@ var  A=r.GetArea();
 Square sq1=new(7);
 P=sq1.GetPerimeter();
 A=sq1.GetArea();
+
+var triangle=new(2.3,3.2,4.5);
+var PT=triangle.GetPerimeter();
+var AT=triangle.GetArea();
