@@ -1,6 +1,6 @@
 //Write console application to calculate the area and perimeter of 2D shapes
 
-class Rectangle
+class Rectangle:Ishape2D
 {
     //Default constructor
     public Rectangle()
